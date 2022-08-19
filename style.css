@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: 10px 5%;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo{
+    margin-right: auto;
+}
+.logo img{
+    width: 80px;
+}
+.nav-item{
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+    font-size: large;
+    color: white;
+}
+.nav-btn{
+    margin-left: 50px;
+    font-size: large;
+    padding: 8px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.sec-1 .left{
+    position: relative;
+    width: 100%;
+}
+
+.sec-1 img{
+    width: 500px;
+    height: 350px;
+    rotate: 90deg;
+   
+}
+.sec-1 .image{
+    position: absolute;
+    top: 150px;
+
+}
+.sec-1{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.sec-1 .right{
+    width: 100%;
+}
+
+.sec-1 .right h1{
+    margin-top: 60px;
+    font-size: 60px;
+    color: white;
+    line-height: 1.2;
+}
+
+.sec-1 .right h4{
+    font-size: 20px;
+    color: rgb(213, 202, 202);
+    line-height: 2;
+    margin-top: 30px;
+}
+
+.sec-1 .right .email{
+    padding: 20px 20px;
+    background-color: white;
+    margin-top: 40px;
+    align-items: center;
+    width: 500px;
+}
+
+.sec-1 .right .email i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.sec-1 .right .email input{
+    background-color: transparent;
+    color: gray;
+    font-size: larger;
+    margin-right: 20px;
+    border: none;
+
+}
+.sec-1 .right .email button{
+    font-size: large;
+    padding: 8px 20px;
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    float: right;
+}
+
+.sec-2{
+    text-align: center;
+    background-color: #fff;
+}
+.sec-2 .heading{
+    font-size: 50px;
+}
+.sec-2 .numbers{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sec-2 .numbers h3{
+    font-size: 30px;
+}
+
+.sec-2 .yt-video{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.container-3{
+    margin-top: 60px;
+}
+.sec-3{
+    margin: 10px 5%;
+}
+
+.sec-3 .main-heading{
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.sec-3 .card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.sec-3 .right-float{
+    margin: auto;
+   text-align: center;
+    width: 100%;
+    
+}
+.sec-3 .left-float{
+    width: 100%;
+}
+
+.sec-3 img{
+    width: 400px;
+    height: 350px;
+}
+
+.sec-3 .heading{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec-3 h4{
+    /* width: 60%; */
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.sec-3 button{
+    background-color: #12B0E8;
+    font-size: large;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.sec-4{
+    margin: 10px 5%;
+}
+.part-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.part-1 h1{
+    font-size: 50px;
+    line-height: 1.2;
+    width: 100%;
+}
+.part-1 p{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    width: 100%;
+}
+
+.part-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    column-gap: 40px;
+}
+
+.part-2 img{
+    width: 400px;
+    height: 550px;
+}
+
+.part-2 .card .photo{
+    width: 100%;
+}
+.part-2 .card h4{
+    margin-top: 40px;
+    font-size: 20px;
+    width: 100%;
+}
+.part-2 .card p{
+    margin-top: 30px;
+    font-size: 15px;
+    width: 80%;
+}
+.sec-4 button{
+    display: block;
+    margin: 0 auto;
+    background-color: #12B0E8;
+    font-size: large;
+    font-weight: 600;
+    padding: 15px 40px;
+    border: none;
+    color: white;
+    margin-top: 30px;
+}
+.container-5{
+    background-color: black;
+    height: 400px;
+}
+
+footer{
+    margin: 20px 10%;
+    color: white;
+    padding: 50px 0;
+}
+.footer-logo img{
+    width: 80px;
+    margin-right: auto;
+}
+.upper-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper-footer i{
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.bottom-footer h4{
+    font-size: 20px;
+    line-height: 2;
+}
+.bottom-footer p{
+    line-height: 2;
+    color: gray;
+}
+.bottom-footer a{
+    text-decoration: none;
+    color: gray;
+}
+
+@media screen and (max-width:610px) {
+    nav .logo , nav .nav-btn, .nav-item:nth-child(6){
+        display: none;
+    }
+    nav{
+        justify-content: start;
+    }
+    .nav-item{
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .sec-1{
+        display: block;
+        height: 500px;
+    }
+    .sec-1 img{
+        display: none;
+    }
+    .sec-1 .right h1{
+        font-size: 30px;
+    }
+    .sec-1 .right h4{
+        font-size: 15px;
+    }
+    .sec-1 .right .email{
+        scale: 0.6;
+        float: left;
+        margin-left: -70px;
+    
+    }
+    .sec-2 .heading{
+        font-size: 30px;
+        line-height: 1;
+    }
+    .sec-2 .numbers{
+        scale: 0.7;
+        justify-content: space-between
+    }
+    .sec-2 .yt-video{
+        display: none;
+    }
+    .sec-3 .main-heading{
+        font-size: 30px;
+    }
+    .sec-3 .card{
+        display: block;
+        width: 100%;
+    }
+    .sec-3 img{
+        display: none;
+    }
+
+    .sec-3 .heading , .sec-3 h4{
+        width: 350px;
+    }
+
+    .sec-3 .card:nth-child(2){
+    float: left;
+    }
+    .sec-4 .part-1{
+        display: block;
+        width: 350px;
+    }
+    .sec-4 .part-1 h1{
+        font-size: 30px;
+    }
+    .sec-4 .part-1 p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .part-2{
+        display: block;
+    }
+    .part-2 .photo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: auto;
+    }
+    .part-2 img{
+        width: 200px;
+        height: 300px;
+        margin-top: 20px;
+    }
+    .part-2 .card h4 , .part-2 .card p{
+        margin-top: 5px;
+        width: 300px;
+    }
+    .sec-4 button{
+        scale: 0.7;
+    }
+
+    .upper-footer , .favroutite , .Company{
+        display: none;
+    } 
+    .bottom-footer p , .bottom-footer h4{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:611px) and (max-width:1000px) {
+    nav .nav-btn{
+        display: none;
+    }
+    nav .logo img{
+        width: 40px;
+    }
+    .sec-1{
+        display: block;
+    }
+    .sec-1 .image{
+        display: none;
+    }
+    .sec-2 .yt-video{
+        display: none;
+    }
+    .sec-3{
+        flex-direction: column;
+        align-items: flex-start;
+        }
+    .sec-3 img{
+        display: none;
+    }
+    .sec-3 .heading , .sec-3 h4{
+        width: 350px;
+    }
+
+    .sec-3 .card:nth-child(3){
+    flex-direction: row-reverse;
+    }
+    .sec-4 .part-1{
+        display: block;
+        width: 350px;
+    }
+    .sec-4 .part-1 h1{
+        font-size: 30px;
+    }
+    .sec-4 .part-1 p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .part-2 {
+        display: flex;        flex-direction: column;
+    }
+    .part-2 .photo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: auto;
+    }
+    .part-2 img{
+        width: 200px;
+        height: 300px;
+        margin-top: 20px;
+    }
+    .part-2 .card h4 , .part-2 .card p{
+        margin-top: 5px;
+        width: 300px;
+    }
+    .sec-4 button{
+        scale: 0.7;
+    }
+
+    .upper-footer , .favroutite , .Company{
+        display: none;
+    } 
+    .bottom-footer p , .bottom-footer h4{
+        font-size: 10px;
+    }
+
+
+
+
+
+}
