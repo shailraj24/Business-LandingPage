@@ -15,4 +15,4 @@ it's take near about 4 to 5  Hour to complete(with media query).
 
 ## Deployed link
 
-[Hosting site - landing Page](https://raj-site-hosting.netlify.app/)
+[Raj Business - landing Page](https://raj-business-landing-page.netlify.app/)
